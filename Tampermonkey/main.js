@@ -14,7 +14,7 @@
     'use strict';
     try {
         let body = document.getElementsByClassName('bg-body');
-        node.parentNode.removeChild(node);
+        body.parentNode.removeChild(body);
         console.log(document.cookie);
     }
     catch { }
